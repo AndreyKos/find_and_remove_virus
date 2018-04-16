@@ -6,7 +6,7 @@ VERSION_MALDET="1.6.2"
 URLMALDET="wget -qO- http://www.rfxn.com/downloads/maldetect-current.tar.gz"
 URLYARA="wget -qO- https://github.com/VirusTotal/yara/archive/v${VERSION_YARA}.tar.gz"
 TAR="tar xzv -C ${TMPDIR}"
-YARA_SIG="wget http://files.xserver.ua/php/kos.yara"
+YARA_SIG="wget https://raw.githubusercontent.com/AndreyKos/find_and_remove_virus/master/kos.yara"
 
 version_os()
         {
