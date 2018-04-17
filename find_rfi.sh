@@ -34,7 +34,7 @@ echo Find and remove long space...
 find ${SITE_PATH} -type f -name '*.php' |xargs perl -pi -e's/^<\?php\s{100,}.*$/<\?php/' 2>/dev/null && echo "OK" || exit 1
 
 echo Find and remove pattern favicon_c45b08.ico
-find {SITE_PATH} -type f -name "favicon_*.ico" -exec rm -rfv {} \; && echo "OK" || exit 1
+find ${SITE_PATH} -type f -name "favicon_*.ico" -exec rm -rfv {} \; && echo "OK" || exit 1
 
 while true; do
 	read -p "Do you want to change permissions? (yes/no): "  I
